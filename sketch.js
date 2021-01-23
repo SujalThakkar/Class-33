@@ -49,7 +49,8 @@ const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
 var GameState = "onsling";
-
+var bg = "sprites/bg.png";
+var score = 0;
 
 var engine, world;
 var box1, pig1;
